@@ -1,0 +1,745 @@
+html {
+    scroll-behavior: smooth
+}
+.header {
+    background-image: url(../images/header/image0.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(100%, 88%, 70%, 1);;
+    
+}
+body{
+    background: #000;
+}
+.main-back{
+    background-attachment: fixed;
+    background-image: url('../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg');
+    background-repeat: repeat;
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+}
+.main-container{
+    z-index: 1;
+    position: relative;
+}
+.main{
+    padding-top: 144px;
+    position: relative;
+}
+.nav {
+    /* background: linear-gradient(180deg, #000 -31.73%, rgba(0, 0, 0, 0) 100%); */
+    width: 100%;
+    min-height: 175px;
+    position: fixed;
+    /* z-index: 1; */
+}
+.nav-main{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.nav-background{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+
+.navigation-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0
+}
+
+.header__categories {
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.header__categories__link {
+    display: inline;
+    font-size: 20px
+}
+
+.header__categories__link:nth-child(3) {
+    margin-right: 37px
+}
+
+.header__categories__link:nth-child(2) {
+    margin-right: 37px;
+}
+
+.header__logo {
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.header__logo-center{
+    text-align: center;
+}
+.header__logo-link{
+    font-family: 'gteestiprodisplay-bold1';
+}
+
+.pseudoElements {
+    padding-top: 13px;
+    width: 8.7em;
+    position: relative;
+}
+
+.pseudoGreen {
+    position: absolute;
+    background: blue;
+    height: 8px;
+    width: 34%;
+    bottom: 0;
+    left: 0
+}
+
+.pseudoWhite {
+    position: absolute;
+    background: #ff0;
+    height: 8px;
+    width: 34%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.product__text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute
+}
+
+.product__text .char {
+    position: absolute
+}
+
+.pseudoRed {
+    position: absolute;
+    background: red;
+    height: 8px;
+    width: 34%;
+    bottom: 0;
+    right: 0
+}
+
+.countur-ru {
+    width: 283px !important
+}
+.countur-ru{
+    width: 283px !important;
+}
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header__lang-change {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 25px
+}
+
+/* .header__lang-change a:hover,
+.header__lang-change-burger a:hover{
+    background: #ffe0b2;
+    color: #000;
+} */
+
+.ro {
+    padding: 6px 4px;
+    font-size: 10px;
+    line-height: 24px;
+    /* margin-right: 35px; */
+    cursor: pointer
+}
+
+.ru {
+    padding: 6px 4px;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 24px
+}
+
+.icon-calc {
+    margin-right: 38px;
+    height: 30px;
+    width: auto
+}
+
+.icon-tel {
+    height: 30px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__burger-menu {
+    display: none;
+    z-index: 5;
+}
+
+.header__lang-change-burger {
+    display: none
+}
+
+.close {
+    display: none
+}
+
+.conta-btn {
+    float: bottom;
+    position: absolute;
+    bottom: 244px;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(255, 223, 176), rgb(255, 184, 79) 92%);
+    font-size: 25px;
+    line-height: 30px;
+    border-radius: 50px;
+}
+
+.conta-btn a{
+    font-size: 30px;
+}
+
+.header__btn-position {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.countur {
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    bottom: 239px;
+    border-radius: 50px;
+    background: rgb(100%, 100%, 100%, 0.5);
+}
+.header__btn-position:hover .countur{
+    width: 340px;
+    transition: 0.5s;
+}
+
+.conta-link {
+    padding: 20px 38px 20px 42px;
+    display: inline-block
+}
+.main-container:nth-of-type(2){
+    padding-bottom: 100px;
+}
+
+.mainBackground {
+    /* background-image: url(../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg); */
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 144px;
+    object-fit: cover;
+}
+
+.mainBackground2 {
+    background-image: url(../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.title {
+    font-family: 'gteestiprodisplay-bold1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    padding-top: 63px;
+    padding-bottom: 27px
+}
+
+.product {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 60px
+}
+
+.product__img {
+    max-width: 400px;
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+}
+.product__card{
+    padding: 30px 30px 10px 30px;
+    /* border-radius: 30px; */
+    position: relative;
+}
+.product__card:hover{
+    background-image: url(../images//main/icons/_5_kartinkin_net_p_tekstura_bruska_dereva_krasivo.jpg);
+    background-size: 300px 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+}
+
+
+.product__descr {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    /* font-family: 'Inter-medium', serif */
+}
+
+.product__text span {
+    font-size: 17px;
+    position: absolute;
+    left: 50%;
+    text-transform: uppercase;
+    transform-origin: 0 100px
+}
+
+.categorii {
+    padding-top: 121px
+}
+
+.katalog {
+    padding-top: 13px
+}
+
+.katalog__flex-one > * {
+    margin: 70px 0 0 0
+}
+
+.katalog__flex-one {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    /* margin: -100px 0 0 -100px */
+    column-gap: 45px;
+}
+
+.title-category{
+    margin: 0;
+    margin-bottom: 50px;
+}
+/* .title-camere,
+.title-despre{
+    position: relative;
+    left: -50px;
+} */
+.cards__border {
+    border: 10px solid rgb(100%, 100%, 100%, 0.5);
+    border-radius: 40px;
+    padding: 49px 50px;
+    display: inline-block
+}
+.cards__border:hover{
+    border: 10px solid #aa9478;
+    background-image: url(../images/main/icons/1659617688_5_kartinkin_net_p_tekstura_bruska_dereva_krasivo_8.jpg);
+    object-fit: contain;
+}
+.cards__img {
+    width: 100px
+}
+
+.cards__descr {
+    padding-top: 25px;
+    /* font-family: 'Inter-medium', serif; */
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px
+}
+
+.despre {
+    padding: 120px 40px 0 40px;
+}
+
+.development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.development_cards{
+    display: flex;
+    gap: 30px;
+    max-height: 307px;
+}
+.development_cards img{
+    max-width: 500px;
+    position: relative;
+    z-index: 100;
+    height: 100%;
+}
+.development_cards p{
+    padding: 20px;
+}
+.development__descr {
+    margin-top: 56px;
+    /* font-family: 'Inter-medium', serif; */
+    font-size: 25px;
+    line-height: 141.52%;
+    background:rgb(0%, 0%, 0%, 0.7)
+}
+
+.black-back{
+    background: none;
+}
+
+.development__descr_margin-bottom {
+    margin-bottom: 50px
+}
+
+/* .mw-534 {
+    max-width: 534px;
+    width: 100%;
+    position: relative;
+    z-index: 23
+} */
+
+.development__img_card-block {
+    position: relative
+}
+
+.development__pseudo_for-block-one {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    max-width: 534px;
+    width: 100%;
+    max-height: 303px;
+    height: 100%;
+    border: 8px solid rgb(67%, 58%, 47%, 0.8);
+    z-index: 0
+}
+
+.development__pseudo_for-block-three {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    max-width: 534px;
+    width: 100%;
+    max-height: 303px;
+    height: 100%;
+    border: 8px solid rgb(67%, 58%, 47%, 0.8);
+    z-index: 0
+}
+
+/* .mw-610 {
+    position: relative;
+    max-width: 610px;
+    width: 100%;
+    z-index: 99
+} */
+
+.development__pseudo_for-block-two {
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
+    max-width: 610px;
+    width: 100%;
+    max-height: 372px;
+    height: 100%;
+    border: 8px solid rgb(67%, 58%, 47%, 0.8);
+    z-index: 0
+}
+.logo-footer{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.footer {
+    background-image: url(../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.footer-back{
+    background:rgb(0%, 0%, 0%, 0.9);
+    width: 100%;
+    height: 100%;
+}
+
+.sofa {
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(0%, 0%, 0%, 0.7);
+    bottom: -180px;
+    position: relative;
+}
+
+.back-sofa{
+    width: 100%;
+    height: 50em;
+    /* background-image: url(../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg); */
+}
+
+.sofa__img {
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: -30px
+}
+
+.footer__line {
+    width: 100%;
+    margin: auto;
+    height: 10px;
+    background: rgb(67%, 58%, 47%, 0.8);
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.footer__republic {
+    font-size: 30px;
+    line-height: 125.52%
+}
+
+.footer__tel {
+    font-size: 25px;
+    line-height: 30px
+}
+
+.footer__icon {
+    max-height: 50px;
+    height: 100%;
+    width: auto
+}
+
+.footer-tel{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+    right: 60px;
+}
+.footer-tel img{
+    width: 30px;
+}
+
+.made {
+    font-size: 30px;
+    line-height: 36px;
+    transform: translateX(-25%)
+}
+
+.footer__info-mtop {
+    padding-top: 55px;
+}
+
+.footer__republic-num{
+    font-size: 15px;
+}
+
+.copyright {
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+.product__round-text {
+    justify-self: center;
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    line-height: 41px
+}
+
+.product__text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: animate 10s linear infinite;
+    font-size: 45px
+}
+
+.product__text span {
+    font-size: 17px;
+    position: absolute;
+    left: 50%;
+    text-transform: uppercase;
+    transform-origin: 0 100px;
+}
+
+/* loader */
+
+
+.loader p{
+    letter-spacing: 1px;
+    background: linear-gradient(to right, rgb(67%, 58%, 47%, 1), rgb(203 147 78 / 60%), rgb(203 147 78 / 60%), rgb(67%, 58%, 47%, 1));
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s linear infinite;
+    background-size: 200% auto;
+    font-size: 22px;
+}
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+}
+.loading-title{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.loader{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 999999;
+ background: #000;
+}
+.loading {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  z-index: 1000;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(67%, 58%, 47%, 0.8), #000000);
+  animation: rotate 0.750s infinite linear;
+}
+.loading:after{
+    content: '';
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #000;
+}
+.icon-tel img{
+    width: 30px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width:1200px){
+    .development_cards{
+        flex-direction: column;
+        align-items: center;
+        max-height: unset;
+    }
+    .development{
+        gap: 100px;
+    }
+}
+@media (max-width:720px) {
+    .development_cards img{
+        max-width: 400px;
+    }
+    .development__descr{
+        font-size: 20px;
+    }
+    .sofa__img{
+        max-width: 500px;
+    }
+}
+@media (max-width:576px) {
+    .development_cards img{
+        max-width: 280px;
+    }
+    .development__descr{
+        font-size: 17px;
+    }
+    .development__pseudo_for-block-one {
+        bottom: -20px;
+        left: -20px;
+    }
+    
+    .development__pseudo_for-block-three {
+        bottom: -20px;
+        left: -20px;
+    }
+    .development__pseudo_for-block-two {
+        bottom: -20px;
+        right: -20px;
+    }
+    .development{
+        gap: 50px;
+    }
+    .back-sofa{
+        height: 30em;
+    }
+    .sofa{
+        bottom: -60px;
+    }
+    .logo-footer{
+        font-size: 30px;
+    }
+    .footer-tel{
+        right: 0;
+    }
+    .icon-tel p{
+        display: none;
+    }
+    .nav-background{
+        display: none;
+    }
+    .nav{
+        background: linear-gradient(180deg, #000 -31.73%, rgba(0, 0, 0, 0) 100%);
+    }
+}

@@ -1,0 +1,179 @@
+.nav {
+    position: relative;
+    z-index: 10
+}
+
+.container {
+    max-width: 1315px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px
+}
+.header{
+    background:rgb(0%, 0%, 0%, 0.7);
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: unset;
+}
+.slider-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    left: 0;
+    right: -25px;
+    z-index: 98;
+    margin: auto;
+    bottom: 20%
+}
+
+.item-back{
+    background-image: url(../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+/* .slBg {
+    padding-top: 100px
+} */
+
+.title{
+    padding-top: unset;
+    padding-bottom: unset;
+    position: relative;
+    z-index: 10000;
+}
+
+.slHeader {
+    position: relative
+}
+
+.sofa {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(0%, 0%, 0%, 0.7);
+    bottom: 0;
+    position: relative;
+}
+
+.back-sofa{
+    width: 100%;
+    height: 50em;
+    background-image: url(../images/main/1643266158_80-phonoteka-org-p-temnii-mramor-fon-84.jpg);
+    background-attachment: fixed;
+}
+@media (max-width:576px){
+    .back-sofa{
+        height: unset;
+    }
+}
+
+
+.navigation-block {
+    left: 500px;
+    top: 0;
+    right: 500px;
+    margin: auto;
+    width: 100%;
+    z-index: 100000
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.slider{
+    width: 100%;
+    padding: 10px;
+    border: 8px solid rgb(67%, 58%, 47%, 0.8);
+    max-width: 1350px;
+    margin: 0 auto;
+    /* z-index: 9; */
+}
+.slider img{
+    object-fit: cover;
+}
+.slider-track {
+    display: flex;
+    transition: .6s ease-in-out
+}
+
+.slider-item {
+    max-width: 100vw;
+    height: 100vh
+}
+
+.slider-buttons {
+    text-align: end;
+    margin-top: 20px
+}
+
+.slider-navigation{
+    margin: 0 auto;
+    max-width: 1350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 30px;
+    border-bottom: 5px solid rgba(255, 228, 196, 0.7);
+    padding-bottom: 30px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.slider-navigation_item{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    border: 5px solid rgba(255, 228, 196, 0.7);
+    overflow: hidden;
+}
+.slider-navigation_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.owl-prev{
+    left: 20px;
+}
+.owl-next{
+    right: 20px;
+}
+.owl-nav button{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 228, 196, 0.7);
+    position: absolute;
+    top: 50%;
+    display: inline-flex;
+    border: none;
+    z-index: 10;
+}
+.owl-nav button img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.slider-item_img{
+    z-index: 10000;
+}
+@media (max-width:720px){
+    .slider-navigation{
+        display: none;
+    }
+    .owl-nav button{
+        width: 35px;
+        height: 35px;
+    }
+}
